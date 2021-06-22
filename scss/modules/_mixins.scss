@@ -1,0 +1,60 @@
+@mixin p_content {
+  font-family: "Segoe UI";
+  font-size: 20px;
+  line-height: 22px;
+}
+
+@mixin shadow_mixin {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@mixin content_mixin {
+  background-color: white;
+  border-radius: 20px;
+  height:100%;
+  padding: 50px;
+  width: 100%;
+  @include shadow_mixin;
+
+  @include responsive(sm) {
+    margin-top: 2rem;
+  }
+  @include responsive(xs) {
+    margin-top: 2rem;
+  }
+}
+
+
+@mixin responsive($size) {
+
+  @if $size == xs {
+
+    @media (max-width: 576px) {
+      @content;
+    }
+  }
+
+  @else if $size == sm {
+    @media (min-width: 576px) and (max-width: 768px) {
+      @content;
+    }
+  }
+
+  @else if $size == md {
+    @media (min-width: 768px) and (max-width: 992px) {
+      @content;
+    }
+  }
+
+  @else if $size == lg {
+    @media (min-width: 992px) and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @else if $size == xl {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import '../modules/_mixins.scss';
+
+.form-center {
+  width: 75%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(246, 246, 246, 0.96);
+  border-radius: 5px;
+  @include shadow_mixin;
+}
+
+.btn-form {
+  margin-top: 1rem;
+  width: 30%
+}

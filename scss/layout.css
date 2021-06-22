@@ -1,0 +1,114 @@
+#about-content {
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  padding: 50px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#about-content p {
+  font-family: "Segoe UI";
+  font-size: 20px;
+  line-height: 22px;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  #about-content {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  #about-content {
+    margin-top: 2rem;
+  }
+}
+
+.content {
+  background-color: white;
+  border-radius: 20px;
+  height: 100%;
+  padding: 50px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .content {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .content {
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .content-2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .content-2 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.form-center {
+  width: 75%;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(246, 246, 246, 0.96);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-form {
+  margin-top: 1rem;
+  width: 30%;
+}
+
+.table-content {
+  margin-top: 2rem;
+}
+
+nav li {
+  margin-left: 8px;
+}
+
+.button_all, #submit_button, #clear_button {
+  padding: 5px;
+  background-color: #3f8efd;
+  border-radius: 3px;
+  color: white;
+  width: 80px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 400px;
+}
+
+.center_h1 {
+  text-align: center;
+}
+
+.carousel-caption h3 {
+  color: #f5f1f1;
+}
+
+textarea {
+  width: 100%;
+}
+
+/*# sourceMappingURL=layout.css.map */
